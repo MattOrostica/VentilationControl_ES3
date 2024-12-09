@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Vistas.AcercaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_group"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acerca de Nosotros"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="top|center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_info"
+        android:gravity="center"
+        android:text="Nosotros tenemos como objetivo principal mantener un aire agradable en los espacios cerrados mediante la funcionalidad de encender y apagar los ventiladores dependiendo la temperatura."
+        android:paddingVertical="15dp"
+        android:layout_marginTop="270dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_emoji"
+        android:gravity="center"
+        android:text="Queremos ofrecer una solución eficiente y práctica para mejorar la calidad del aire, asegurando comodidad y bienestar para todos los usuarios."
+        android:paddingVertical="15dp"
+        android:layout_marginTop="420dp"
+        />
+
+
+</FrameLayout>

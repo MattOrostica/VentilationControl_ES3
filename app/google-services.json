@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "608448566746",
+    "project_id": "ventilationcontrol",
+    "storage_bucket": "ventilationcontrol.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608448566746:android:c66deaa76c879a75b99ce3",
+        "android_client_info": {
+          "package_name": "com.example.ventilationcontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxZKQs1G2KkJzR5m38nN9Uh6Zk7DEDh7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
